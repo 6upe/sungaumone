@@ -403,7 +403,7 @@
               <h3>Structure</h3>
               <img
                 id="fullscreen-image"
-                style="display: none"
+                style="display: block"
                 src="./img/new-img/structure.jpg"
                 alt="Full Screen Image"
               />
@@ -423,7 +423,7 @@
               // Add a click event listener to the "Structure" element
               structureElement.addEventListener("click", function () {
                 // Show the full-screen image
-                //   fullscreenImage.style.display = "block";
+                  fullscreenImage.style.display = "block";
 
                 // Use fullscreen API to enter fullscreen mode
                 if (fullscreenImage.requestFullscreen) {
